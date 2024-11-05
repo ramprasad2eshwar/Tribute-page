@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-decoration-color: blueviolet;
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1d1e4c;
+}
+.top_section h1{
+    text-align: end;
+}
+.top_section h4{
+    text-align: end;
+    font-size: 30px;
+}
+.image_container,
+img {
+    border-radius: 40%;
+    overflow: hidden;
+  max-width: 300px;
+  max-height: 320px;
+}
+@media (max-width: 980px) {
+    .image_container img{
+        max-width: 200px;
+        max-height: 220px;
+    }
+    .top_section h1{
+        font-size: 45px;
+    }
+    .top_section h4{
+        font-size: 20px
+    }
+    .content {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      
+    #bio{
+        font-size: 45px;
+        font-weight: 100;
+        /* margin-bottom: 20px; */
+    }
+    #ul{
+        
+    }
+  }
+  @media (max-width: 760px) {
+    .image_container img{
+        max-width: 130px;
+        max-height: 180px;
+    }
+    .top_section h1{
+        font-size: 28px;
+    }
+    .top_section h4{
+        font-size: 18px
+    }
+    .content {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      #para{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #bio{
+
+    }
+    #ul{
+
+    }
+  }
+
+  @media (max-width: 670px) {
+    .image_container img{
+        max-width: 130px;
+        max-height: 180px;
+    }
+    .top_section h1{
+        font-size: 28px;
+    }
+    .top_section h4{
+        font-size: 18px
+    }
+    .content {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      #title{
+        font-size: 40px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #para{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #bio{
+
+    }
+    #ul{
+        
+    }
+  }
+  @media (max-width: 560px) {
+    .image_container img{
+        max-width: 120px;
+        max-height: 150px;
+    }
+    .top_section h1{
+        font-size: 23px;
+    }
+    .top_section h4{
+        font-size: 18px
+    }
+    .content {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      #title{
+        font-size: 30px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #para{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    #bio{
+
+    }
+    #ul{
+        
+    }
+  }
+  @media (max-width: 660px) {
+    .image_container img{
+        max-width: 100px;
+        max-height: 150px;
+    }
+    .top_section h1{
+        font-size: 18px;
+    }
+    .top_section h4{
+        font-size: 18px
+    }
+    .content {
+        max-width: 430px;
+        margin: 0 auto;
+      }
+      #title{
+        font-size: 30px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #para{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #bio{
+
+    }
+    #ul{
+        
+    }
+  }
+  @media (max-width: 460px) {
+    .image_container img{
+        max-width: 100px;
+        max-height: 150px;
+    }
+    .top_section h1{
+        font-size: 18px;
+    }
+    .top_section h4{
+        font-size: 18px
+    }
+    .content {
+        max-width: 300px;
+        margin: 0 auto;
+      }
+      #title{
+        font-size: 30px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #para{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #bio{
+
+    }
+    #ul{
+        
+    }
+  }
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.bio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bio h3{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.bio ul{
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+.bio li{
+    margin-bottom: 15px;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+    font-size: 20px;
+}
